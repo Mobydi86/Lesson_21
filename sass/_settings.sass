@@ -1,0 +1,38 @@
+*, *:before, *:after
+  box-sizing: border-box
+html
+  font-size: 14px
+body
+  font-family: 'Futura Book', sans-serif
+  font-size: 1rem
+img
+  max-width: 100%
+.section
+  padding: 60px 0
+  &-title
+    text-align: center
+    &__heading
+      font-family: 'Yeseva One', cursive
+      text-transform: uppercase
+    &__image
+      display: flex
+      justify-content: center
+      align-items: center
+      &::before, &::after
+        content: ''
+        display: inline-block
+        vertical-align: text-top
+        width: 2.29rem
+        height: 0.14rem
+        background-color: $primary
+        margin: 0 0.71rem
+    &__description
+      margin: auto
+      margin-top: 1.64rem
+      font-size: 1.07rem
+      line-height: 135%
+      max-width: 48rem
+.p
+  &__title
+    margin: auto      
+        
