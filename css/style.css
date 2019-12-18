@@ -426,18 +426,6 @@ img {
 .p__title {
   margin: auto; }
 
-#content {
-  background-color: #ff0;
-  height: 3000px; }
-
-#top {
-  bottom: 0;
-  cursor: pointer;
-  display: none;
-  font-size: 150%;
-  position: fixed;
-  right: 0; }
-
 .header {
   position: fixed;
   left: 0;
@@ -736,19 +724,33 @@ img {
 
 @media screen and (max-width: 1380px) {
   .menu__contacts {
-    flex-basis: 30%; } }
+    flex-basis: 30%; }
+  .card__pricetag {
+    max-width: 16rem;
+    width: 100%; } }
 
 @media screen and (max-width: 1240px) {
   .menu__contacts {
     flex-basis: 30%; }
   .menu__logo {
-    flex-basis: 16%; } }
+    flex-basis: 16%; }
+  .card__pricetag {
+    max-width: 15rem;
+    width: 100%; } }
 
 @media screen and (max-width: 1170px) {
   .menu__contacts {
     flex-basis: 32%; }
   .menu__logo {
-    flex-basis: 18%; } }
+    flex-basis: 18%; }
+  .card__title {
+    font-size: 1.1rem; }
+  .card__list {
+    font-size: 0.95rem; }
+  .card__pricetag {
+    font-size: 1.1rem;
+    max-width: 13rem;
+    width: 100%; } }
 
 @media screen and (max-width: 1060px) {
   .menu__contacts {
@@ -763,8 +765,22 @@ img {
     justify-content: flex-end; }
     .contacts__button {
       display: none; }
+  .card__title {
+    font-size: 0.9rem;
+    padding: auto;
+    margin: auto;
+    text-align: center; }
+  .card__list {
+    font-size: 0.8rem;
+    padding: auto;
+    margin: auto; }
   .card__text {
-    margin-top: -4.3rem; } }
+    margin-top: -4.3rem;
+    padding: 0.5rem 0; }
+  .card__pricetag {
+    font-size: 1rem;
+    max-width: 11rem;
+    width: 100%; } }
 
 @media screen and (max-width: 820px) {
   .nav {
@@ -781,7 +797,15 @@ img {
   .types__card {
     margin-bottom: 5rem; }
   .card__text {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .card__title {
+    font-size: 1.8rem;
+    text-align: center; }
+  .card__list {
+    font-size: 1.8rem; }
+  .card__pricetag {
+    font-size: 1.29rem;
+    max-width: 100%; } }
 
 @media screen and (max-width: 650px) {
   .hero__button {
@@ -855,7 +879,7 @@ img {
     max-width: 22.86rem;
     margin-bottom: 2.8rem; } }
 
-@media screen and (max-height: 570px) {
+@media screen and (max-height: 700px) {
   .hero__scroll-down {
     display: none; } }
 

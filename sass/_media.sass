@@ -2,18 +2,35 @@
   .menu
     &__contacts
       flex-basis: 30%
+  .card
+    &__pricetag
+      max-width: 16rem
+      width: 100%
 @media screen and ( max-width: 1240px) //до 1240px
   .menu
     &__contacts
       flex-basis: 30%
     &__logo
       flex-basis: 16%
+  .card
+    &__pricetag
+      max-width: 15rem
+      width: 100%
 @media screen and ( max-width: 1170px) //до 1170px
   .menu
     &__contacts
       flex-basis: 32%
     &__logo
       flex-basis: 18%
+  .card
+    &__title
+      font-size: 1.1rem
+    &__list
+      font-size: 0.95rem
+    &__pricetag
+      font-size: 1.1rem
+      max-width: 13rem
+      width: 100%
 @media screen and ( max-width: 1060px) //до 1060px
   .menu
     &__contacts
@@ -30,8 +47,22 @@
     &__button
       display: none
   .card
+    &__title
+      font-size: 0.9rem
+      padding: auto
+      margin: auto
+      text-align: center
+    &__list
+      font-size: 0.8rem
+      padding: auto
+      margin: auto
     &__text
       margin-top: -4.3rem
+      padding: 0.5rem 0
+    &__pricetag
+      font-size: 1rem
+      max-width: 11rem
+      width: 100%
 @media screen and ( max-width: 820px) //до 820px
   .nav
     display: none
@@ -50,6 +81,14 @@
   .card
     &__text
       margin-left: 0
+    &__title
+      font-size: 1.8rem
+      text-align: center
+    &__list
+      font-size: 1.8rem
+    &__pricetag
+      font-size: 1.29rem
+      max-width: 100%
 @media screen and ( max-width: 650px ) //до 650px
   .hero
     &__button
@@ -128,7 +167,7 @@
       line-height: 136.13%
       max-width: 22.86rem
       margin-bottom: 2.8rem
-@media screen and (max-height: 570px ) //высота до 570px 
+@media screen and (max-height: 700px ) //высота до 700px 
  .hero
    &__scroll-down
      display: none
