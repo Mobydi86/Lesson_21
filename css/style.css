@@ -836,7 +836,8 @@ img {
       box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05); }
     .card__title {
       font-size: 1.07rem;
-      margin: 0 0 0.7rem 0; }
+      margin: 0 0 0.7rem 0;
+      text-align: left; }
     .card__list {
       font-size: 0.94rem;
       line-height: 174.4%;
@@ -872,7 +873,7 @@ img {
     flex-direction: column;
     max-width: 100%;
     margin: auto;
-    margin-top: -11.9rem; }
+    margin-top: -5.8rem; }
   .hero__text {
     font-size: 1.29rem;
     line-height: 136.13%;
